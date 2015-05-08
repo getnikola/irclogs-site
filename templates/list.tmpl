@@ -1,0 +1,23 @@
+## -*- coding: utf-8 -*-
+<%inherit file="base.tmpl"/>
+
+<%block name="content">
+<article class="listpage">
+    <header>
+        % if title == 'Archive':
+        <h1>Logs for <tt>#nikola</tt></h1>
+        % else:
+        <h1>${title.replace('Posts', 'Logs for <tt>#nikola</tt>')}</h1>
+        % endif
+    </header>
+    %if items:
+    <ul class="postlist">
+    % for text, link in items:
+        <li><a href="${link}">${text}</a>
+    % endfor
+    </ul>
+    %else:
+    <p>${messages("Nothing found.")}</p>
+    %endif
+</article>
+</%block>

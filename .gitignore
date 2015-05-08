@@ -1,0 +1,6 @@
+.doit.db
+cache
+conf.pyc
+logs
+last-rebuild.log
+output
