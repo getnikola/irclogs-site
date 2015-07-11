@@ -127,7 +127,7 @@ NAVIGATION_LINKS = {
 }
 
 # Name of the theme to use.
-THEME = "custom"
+THEME = "cerulean"
 
 # Below this point, everything is optional
 
@@ -541,7 +541,7 @@ REDIRECTIONS = []
 # "assets/css/code.css" this is ignored.
 # Can be any of autumn borland bw colorful default emacs friendly fruity manni
 # monokai murphy native pastie perldoc rrt tango trac vim vs
-CODE_COLOR_SCHEME = 'friendly'
+CODE_COLOR_SCHEME = 'monokai'
 
 # If you use 'site-reveal' theme you can select several subthemes
 # THEME_REVEAL_CONFIG_SUBTHEME = 'sky'
@@ -599,7 +599,7 @@ LICENSE = ""
 
 # A small copyright notice for the page footer (in HTML).
 # (translatable)
-CONTENT_FOOTER = 'Maintained by <a href="mailto:{email}">{author}</a>, powered by <a href="http://getnikola.com" rel="nofollow">Nikola</a> and <a href="https://chriswarrick.com/kwbot/">KwBot</a>.  Rebuilt every 30 minutes.'
+CONTENT_FOOTER = 'Maintained by <a href="mailto:{email}">{author}</a>, powered by <a href="https://getnikola.com/" rel="nofollow">Nikola</a> and <a href="https://chriswarrick.com/kwbot/">KwBot</a>.  Rebuilt every 15 minutes.'
 
 # Things that will be passed to CONTENT_FOOTER.format().  This is done
 # for translatability, as dicts are not formattable.  Nikola will
