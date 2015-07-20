@@ -205,6 +205,7 @@ POSTS = (
 )
 PAGES = (
     ("stories/*.rst", "", "story.tmpl"),
+    ("stories/search.html", "", "search.tmpl"),
     ("stories/*.txt", "", "story.tmpl"),
 )
 
@@ -841,6 +842,21 @@ COPY_SOURCES = False
 # in the default template (base.tmpl).
 # (translatable)
 # BODY_END = ""
+
+
+
+SEARCH_FORM = """
+<form class="navbar-form navbar-left" action="/search/" role="search">
+    <div class="form-group">
+        <input type="text" class="form-control" id="tipue_search_input" name="q" placeholder="Search" autocomplete="off">
+    </div>
+    <button type="submit" class="btn btn-default">Submit</button>
+</form>
+"""
+
+EXTRA_HEAD_DATA = """
+<link rel="stylesheet" type="text/css" href="/assets/css/tipuesearch.css">
+"""
 
 # The possibility to extract metadata from the filename by using a
 # regular expression.
