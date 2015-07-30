@@ -7,6 +7,8 @@
 .. description: 
 .. type: text
 
+.. class:: lead
+
 Join the discussion `in #nikola on IRC <ircs://chat.freenode.net:6697/#nikola>`_!
 
 Last 7 days
