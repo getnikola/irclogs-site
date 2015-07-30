@@ -21,12 +21,12 @@ BLOG_AUTHOR = "Chris Warrick"  # (translatable)
 BLOG_TITLE = "#nikola IRC Logs"  # (translatable)
 # This is the main URL for your site. It will be used
 # in a prominent link
-SITE_URL = "http://irclogs.getnikola.com/"
+SITE_URL = "https://irclogs.getnikola.com/"
 # This is the URL where Nikola's output will be deployed.
 # If not set, defaults to SITE_URL
 # BASE_URL = "http://getnikola.com/"
 BLOG_EMAIL = "chris@getnikola.com"
-BLOG_DESCRIPTION = "Logs for #nikola on freenode"
+BLOG_DESCRIPTION = "Logs for #nikola on freenode IRC"
 
 # Nikola is multilingual!
 #
