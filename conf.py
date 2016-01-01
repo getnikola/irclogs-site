@@ -123,6 +123,7 @@ NAVIGATION_LINKS = {
     DEFAULT_LANG: (
         ("https://getnikola.com/", "Nikola website"),
         ('/2015/', '2015'),
+        ('/2016/', '2016'),
     ),
 }
 
