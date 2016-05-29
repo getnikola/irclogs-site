@@ -5,3 +5,4 @@ logs
 last-rebuild.log
 output
 __pycache__
+last-error-email
