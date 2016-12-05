@@ -325,7 +325,7 @@ WRITE_TAG_CLOUD = False
 
 # Final location for the main blog page and sibling paginated pages is
 # output / TRANSLATION[lang] / INDEX_PATH / index-*.html
-# INDEX_PATH = ""
+INDEX_PATH = "blog"
 
 # Create per-month archives instead of per-year
 CREATE_MONTHLY_ARCHIVE = True
@@ -909,7 +909,7 @@ UNSLUGIFY_TITLES = True
 # USE_BUNDLES = True
 
 # Plugins you don't want to use. Be careful :-)
-DISABLED_PLUGINS = ["render_indexes"]
+DISABLED_PLUGINS = ["classify_indexes", "render_indexes"]  # hopefully temporary
 
 # Add the absolute paths to directories containing plugins to use them.
 # For example, the `plugins` directory of your clone of the Nikola plugins
