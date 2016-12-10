@@ -325,7 +325,7 @@ WRITE_TAG_CLOUD = False
 
 # Final location for the main blog page and sibling paginated pages is
 # output / TRANSLATION[lang] / INDEX_PATH / index-*.html
-INDEX_PATH = "blog"
+INDEX_PATH = "_fulltext"
 
 # Create per-month archives instead of per-year
 CREATE_MONTHLY_ARCHIVE = True
@@ -769,7 +769,7 @@ COPY_SOURCES = False
 
 # Modify the number of Post per Index Page
 # Defaults to 10
-# INDEX_DISPLAY_POST_COUNT = 10
+INDEX_DISPLAY_POST_COUNT = 100
 
 # By default, Nikola generates RSS files for the website and for tags, and
 # links to it.  Set this to False to disable everything RSS-related.
@@ -909,7 +909,7 @@ UNSLUGIFY_TITLES = True
 # USE_BUNDLES = True
 
 # Plugins you don't want to use. Be careful :-)
-DISABLED_PLUGINS = ["classify_indexes", "render_indexes"]  # hopefully temporary
+# DISABLED_PLUGINS = ["classify_indexes", "classify_sections"]
 
 # Add the absolute paths to directories containing plugins to use them.
 # For example, the `plugins` directory of your clone of the Nikola plugins
