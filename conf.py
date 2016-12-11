@@ -910,6 +910,7 @@ UNSLUGIFY_TITLES = True
 
 # Plugins you don't want to use. Be careful :-)
 # DISABLED_PLUGINS = ["classify_indexes", "classify_sections"]
+DISABLE_INDEXES_PLUGIN_INDEX_AND_ATOM_FEED = True
 
 # Add the absolute paths to directories containing plugins to use them.
 # For example, the `plugins` directory of your clone of the Nikola plugins
