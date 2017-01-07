@@ -3,7 +3,7 @@
 This is the source for <https://irclogs.getnikola.com/>.  Actual logs not
 included.
 
-The site is updated automatically every 15 minutes by [KwBot](https://chriswarrick.com/kwbot/) and hosted on Chris Warrick’s personal VPS (Kw Arya).
+The site is updated automatically every hour with logs gathered by [KwBot](https://chriswarrick.com/kwbot/) and hosted on Chris Warrick’s personal VPS (Kw Nayru).
 
 ### Yearly update instructions
 
