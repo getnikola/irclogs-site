@@ -1,6 +1,6 @@
 #!/bin/bash
 cd /home/kwpolska/nikola-logs
-/home/kwpolska/virtualenvs/nikola-py3/bin/nikola build > last-rebuild.log 2>&1
+NIKOLA_DEBUG=1 /home/kwpolska/virtualenvs/nikola-py3/bin/nikola build > last-rebuild.log 2>&1
 if [[ $? != 0 ]]; then
     # error reporting
     mailfn='last-error-email'
