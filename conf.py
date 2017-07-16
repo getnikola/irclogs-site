@@ -877,7 +877,7 @@ FILE_METADATA_REGEXP = 'logs/(?P<date>\d{4}-\d{2}-\d{2})\.log'
 
 # If you hate "Filenames with Capital Letters and Spaces.md", you should
 # set this to true.
-UNSLUGIFY_TITLES = True
+FILE_METADATA_UNSLUGIFY_TITLES = True
 
 # Additional metadata that is added to a post when creating a new_post
 # ADDITIONAL_METADATA = {}
