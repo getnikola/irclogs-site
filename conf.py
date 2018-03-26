@@ -2,6 +2,7 @@
 
 from __future__ import unicode_literals
 import time
+import datetime
 
 # !! This is the configuration of Nikola. !! #
 # !!  You should edit it to your liking.  !! #
@@ -120,12 +121,9 @@ TRANSLATIONS_PATTERN = "{path}.{lang}.{ext}"
 #          else they won’t be highlighted when active.
 
 NAVIGATION_LINKS = {
-    DEFAULT_LANG: (
+    DEFAULT_LANG: tuple([
         ("https://getnikola.com/", "Nikola website"),
-        ('/2015/', '2015'),
-        ('/2016/', '2016'),
-        ('/2017/', '2017'),
-    ),
+    ] + [('/{0}/'.format(y), str(y)) for y in range(2015, datetime.date.today().year + 1)]),
 }
 
 # Name of the theme to use.
