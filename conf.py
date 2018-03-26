@@ -205,7 +205,7 @@ POSTS = (
 )
 PAGES = (
     ("stories/*.rst", "", "story.tmpl"),
-    ("stories/search.html", "", "search.tmpl"),
+    ("stories/*.html", "", "story.tmpl"),
     ("stories/*.txt", "", "story.tmpl"),
 )
 
