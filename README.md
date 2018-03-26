@@ -7,4 +7,4 @@ The site is updated automatically every hour with logs gathered by [KwBot](https
 
 ### Yearly update instructions
 
-Add the new year to `NAVIGATION_LINKS` in `conf.py` and the list in `stories/index.rst`.
+Add the new year to the list in `stories/index.rst`.
