@@ -846,11 +846,9 @@ INDEX_DISPLAY_POST_COUNT = 100
 
 
 SEARCH_FORM = """
-<form class="navbar-form navbar-left" action="/search/" role="search">
-    <div class="form-group">
-        <input type="text" class="form-control" id="tipue_search_input" name="q" placeholder="Search" autocomplete="off">
-    </div>
-    <button type="submit" class="btn btn-default">Submit</button>
+<form class="form-inline my-2 my-lg-0" action="/search/" role="search">
+    <input type="search" class="form-control mr-sm-2" id="tipue_search_input" name="q" placeholder="Search" autocomplete="off">
+    <button type="submit" class="btn btn-default my-2 my-sm-0">Search</button>
 </form>
 """
 
@@ -909,7 +907,7 @@ FILE_METADATA_UNSLUGIFY_TITLES = True
 
 # Plugins you don't want to use. Be careful :-)
 # DISABLED_PLUGINS = ["classify_indexes", "classify_sections"]
-DISABLE_INDEXES_PLUGIN_INDEX_AND_ATOM_FEED = True
+DISABLE_INDEXES = True
 
 # Add the absolute paths to directories containing plugins to use them.
 # For example, the `plugins` directory of your clone of the Nikola plugins
