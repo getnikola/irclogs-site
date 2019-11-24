@@ -1,6 +1,6 @@
 #!/bin/bash
 cd /home/kwpolska/nikola-logs
-NIKOLA_DEBUG=1 /home/kwpolska/virtualenvs/nikola/bin/nikola build > last-rebuild.log 2>&1
+NIKOLA_DEBUG=1 /home/kwpolska/virtualenvs/nikola/bin/nikola build --backend=sqlite3 > last-rebuild.log 2>&1
 if [[ $? != 0 ]]; then
     # error reporting
     mailfn='last-error-email'
