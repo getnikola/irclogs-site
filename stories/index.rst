@@ -1,12 +1,12 @@
 .. title: Logs for #nikola
 .. slug: index
 .. date: 1970-01-01T00:00:00Z
-.. description: IRC Logs for the #nikola channel on Freenode.
+.. description: IRC Logs for the #nikola channel on Freenode and Libera.Chat.
 .. type: text
 
 .. class:: lead
 
-Join the discussion `in #nikola on Freenode IRC <ircs://chat.freenode.net:6697/#nikola>`_!
+Join the discussion `in #nikola on Freenode <ircs://chat.freenode.net:6697/#nikola>`_ and  `in #nikola on Libera.Chat <ircs://irc.libera.chat:6697/#nikola>`_!
 
 Last 7 days
 -----------
