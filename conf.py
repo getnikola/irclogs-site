@@ -27,7 +27,7 @@ SITE_URL = "https://irclogs.getnikola.com/"
 # If not set, defaults to SITE_URL
 # BASE_URL = "http://getnikola.com/"
 BLOG_EMAIL = "chris@getnikola.com"
-BLOG_DESCRIPTION = "Logs for #nikola on Freenode and Libera.Chat"
+BLOG_DESCRIPTION = "Logs for #nikola on Libera.Chat"
 
 # Nikola is multilingual!
 #
