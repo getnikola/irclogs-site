@@ -8,9 +8,6 @@
 
 Join the discussion `in #nikola on Libera.Chat <ircs://irc.libera.chat:6697/#nikola>`_!
 
-(The channel used to be on Freenode, but we’ve moved, following the staff
-resignations and wide-reaching channel closures.)
-
 Last 7 days
 -----------
 
